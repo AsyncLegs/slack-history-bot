@@ -1,0 +1,6 @@
+logs/*
+.idea
+vendor
+composer.lock
+docker/data/*
+.env

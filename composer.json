@@ -1,0 +1,22 @@
+{
+  "name": "terekhov/slack-history-bot",
+  "description": "History saver and searcher bot",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Terekhov Ruslan",
+      "email": "ruslan@terekhov.tk"
+    }
+  ],
+  "require": {
+    "coderstephen/slack-client": "^0.2.5",
+    "vlucas/phpdotenv": "^2.4",
+    "monolog/monolog": "^1.22",
+    "mongodb/mongodb": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {"Terekhov\\": "src/"}
+  }
+}
